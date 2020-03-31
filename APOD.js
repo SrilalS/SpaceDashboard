@@ -17,7 +17,7 @@ $.ajax(settings).done(function (response) {
     console.log(imgurl);
     console.log(desc);
 
-    document.getElementById('image').src = imgurl;
+    document.getElementById('img').src = imgurl;
     document.getElementById('desc').innerText = desc;
     //document.getElementById('newcases').innerHTML = nc;
     //document.getElementById('deaths').innerHTML = td;
